@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practica 4 layout</title>
+    <style>
+        *{
+     box-sizing: border-box;
+    }
+    body{
+font-family: Arial, Helvetica, sans-serif;
+
+    }
+    header{
+        background-color: black;
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+    nav{
+        float: left;
+        width: 20%;
+        height: 300px;
+        background-color: aquamarine;
+        padding: 20px;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    article{
+        float: left;
+        padding: 20px;
+        width: 60%;
+        background-color: rgb(100, 100, 156);
+        height: 300px;
+    }
+    section::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer{
+    background-color: rgb(84, 117, 92);
+    padding: 20px;
+    text-align: center;
+    color: black;
+
+    }
+    @media(max-width:600px){
+        nav, article{
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>mayores exponentes de la lirica,musica y produccion latina</h2>
+    </header>
+
+    <section>
+    <nav>
+           <ul>
+<li><a href="https://www.google.com/search?q=top+albums+rap+latinos&rlz=1C1VDKB_esMX1025MX1025&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ-vHwp4f9AhW2nGoFHaI3CmUQ_AUoAXoECAEQAw&biw=1366&bih=600&dpr=1">compositores</a></li>
+<li><a href="https://www.google.com/search?q=top+albums+rap+latinos&rlz=1C1VDKB_esMX1025MX1025&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ-vHwp4f9AhW2nGoFHaI3CmUQ_AUoAXoECAEQAw&biw=1366&bih=600&dpr=1">grupos</a></li>
+<li><a href="https://www.google.com/search?q=top+albums+rap+latinos&rlz=1C1VDKB_esMX1025MX1025&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ-vHwp4f9AhW2nGoFHaI3CmUQ_AUoAXoECAEQAw&biw=1366&bih=600&dpr=1">productores</a></li>
+           </ul>
+    </nav>
+    <article>
+        <h1>mejores canciones</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nesciunt dolore, iste error voluptate consequatur repellendus aut molestias quasi, exercitationem nulla ut sit obcaecati magni iure quo, nemo voluptatem optio?
+
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dignissimos tenetur mollitia esse, sequi eius impedit distinctio officia voluptas vero ratione tempora ducimus maxime expedita non, labore ex corrupti cupiditate?
+        </p>
+       
+    </article>
+    </section>
+
+<footer>
+     <p>pagina oficial &copy; 2023</p>
+     <p>Gastelum Medina Jesus Armando - Practica 3 &copy; Usando CSS</p>
+    
+</body>
+</html>

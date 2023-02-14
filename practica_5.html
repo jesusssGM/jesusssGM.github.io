@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>formularios html</title>
+</head>
+<body bgcolor="#1ABC9C">
+    <h1>formularios html</h1><hr>
+    <label for="nombre">nombre</label>
+    <input type="text" placeholder="teclea el nombre del alumno" required><br><br>
+
+    <label for="edad">edad</label>
+    <input type="number" placeholder="teclea la edad" required><br><br>
+
+    <label for="edad">fecha de nacimiento</label>
+    <input type="date" required><br><br>
+
+    <input type="radio" name="sexo" required>femenino
+    <input type="radio" name="sexo" required>masculino<br><br>
+
+    <label for="direccion">direccion</label><br>
+
+     <textarea name="direccion" id="" cols="30" rows="10" placeholder="teclea direccion"></textarea><br><br>
+
+     <label for="escuela">escuela:</label>
+     <select name="escuela" id="">
+        <option value="">selecciona una escuela</option>
+        <option value="cetis">cetis 107</option>
+        <option value="cbtis">cbtis 224</option>
+        <option value="otra">otra</option>
+     </select> 
+
+     <label for="materias">materias cursadas</label> <br>
+     <input type="checkbox" name="materias[]"> fisica <br>
+     <input type="checkbox" name="materias[]"> calculo diferencial <br>
+     <input type="checkbox" name="materias[]"> ingles <br>
+     <input type="checkbox" name="materias[]"> programacion web <br>
+     
+     <label for="color">color preferido</label>
+     <input type="color" required><br><br>
+
+     <label for="imagen_perfil"><b>imagen de perfil</b></label>
+     <input type="file" accept="png/jpg"><br><br>
+
+     <input type="submit" value="guardar alumno"><br><br><br>
+
+     <p>Gastelum Medina Jesus Armando - Practica 5 &copy; Usando CSS</p>
+
+     
+</body>
+</html>

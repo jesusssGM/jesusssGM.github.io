@@ -30,8 +30,7 @@
         $carta2 = $_POST["carta2"];
 
         $carta = rand(1,54);
-        $cartas_dadas =[];
-        array_push($cartas_dadas, $cartas);
+       echo "<h2>carta dada<img src='fotos_loteria/".$carta.".jpeg'class='img-fluid' width='100px'></h2>";
        }else{
         $carta1 = [];
         $total=0;
